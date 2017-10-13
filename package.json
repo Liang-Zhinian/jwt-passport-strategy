@@ -10,5 +10,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "jsonwebtoken": "^8.1.0",
+    "passport-strategy": "^1.0.0",
+    "util": "^0.10.3"
+  }
 }
