@@ -1,5 +1,5 @@
 {
-  "name": "jwt",
+  "name": "jwt-passport-strategy",
   "version": "1.0.0",
   "main": "./lib",
   "directories": {
