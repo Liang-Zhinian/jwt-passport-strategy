@@ -15,7 +15,8 @@
 
 ## Start instance
 ```javascript
-var passport = require('passport');
+var passport = require('passport'),
+    JwtStrategy = require('jwt-passport-strategy').Strategy;
 var opts = {};
     opts.secretOrKey = 'secretOrKey';
     passport.use(new JwtStrategy(opts,
